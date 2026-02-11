@@ -4,7 +4,7 @@ import random
 code1= ""
 for i in range(3):
     code1 += str(random.randint(0,9))
-print("Kolmenumeroinen pinkoodi:", code1)
+print("Kolmenumeroinen pinkoodi:", code1)   
 
 code2= ""
 for i in range(4):
