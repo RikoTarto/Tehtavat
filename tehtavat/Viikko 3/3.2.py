@@ -1,4 +1,4 @@
-hyttiluokka= input("Valitse hyttiluokka, niin kerron tietoa sinulle hytistä.: LUX, A, B, C: ")
+hyttiluokka= input("Valitse hyttiluokka, niin kerron tietoa sinulle hytistä.: LUX, A, B, C: ").upper()
 
 if hyttiluokka=="LUX": print("LUX on parvekkeellinen hytti yläkannella.")
 elif hyttiluokka=="A": print("A on ikkunallinen hytti autokannen yläpuolella.")
